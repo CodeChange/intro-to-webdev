@@ -5,8 +5,11 @@
 
 ## Exploring
 ### Use [X-Ray goggles](https://goggles.mozilla.org/) to see what the web is made of
+
 a. [Demonstration of how it works](https://en.wikipedia.org/wiki/Main_Page)
+
 b. [Customising our own article](http://www.abc.net.au/news/2016-11-14/supermoon-tips-for-photographing-and-viewing/8021478)
+
 c. Changing another website
 
 ## [HTML](html.md)
