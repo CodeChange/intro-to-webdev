@@ -354,15 +354,14 @@ Here is a demonstration:
 
 ```html
 <style>
-div.norm {
-    width:600px;
-    border: 3px solid red;
-}
-
-div.max {
-    max-600px:350px;
-    border: 3px solid red;
-}
+    div.norm {
+        width: 600px;
+        border: 3px solid red;
+    }
+    div.max {
+        max-width: 350px;
+        border: 3px solid red;
+    }
 </style>
 </head>
 <body>
@@ -378,14 +377,14 @@ When we have lots of text in  a fixed space, we can make the content fit using O
 ```html
 <style>
 div.norm {
-    width:600px;
-    height:100px;
+    width: 600px;
+    height: 100px;
     border: 3px solid red;
     overflow: scroll; /*or hidden*/
 }
 
 div.max {
-    max-600px:350px;
+    max-width: 350px;
     border: 3px solid red;
 }
 </style>
