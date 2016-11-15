@@ -376,17 +376,16 @@ Here is a demonstration:
 When we have lots of text in  a fixed space, we can make the content fit using Overflow
 ```html
 <style>
-div.norm {
-    width: 600px;
-    height: 100px;
-    border: 3px solid red;
-    overflow: scroll; /*or hidden*/
-}
-
-div.max {
-    max-width: 350px;
-    border: 3px solid red;
-}
+    div.norm {
+        width: 600px;
+        height: 100px;
+        border: 3px solid red;
+        overflow: scroll; /*or hidden*/
+    }
+    div.max {
+        max-width: 350px;
+        border: 3px solid red;
+    }
 </style>
 </head>
 <body>
