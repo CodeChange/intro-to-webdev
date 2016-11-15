@@ -80,7 +80,7 @@ Inside your html document, you can apply CSS internally
 
 ```html
 <style>
-    body: {
+    body {
         background-color: red;
     }
 </style>
