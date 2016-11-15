@@ -9,7 +9,7 @@ Here is an example of the contents of a typical CSS file
 ```css
 
 body {
-    font: 100% Lucida Sans, Verdana;
+    font: 100% "Lucida Sans", Verdana;
     margin: 20px;
     line-height: 26px;
 }
