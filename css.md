@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    xmin-width: 900px;
+    min-width: 900px;
 }
 ```
 
