@@ -404,7 +404,7 @@ There are lots of styles that can apply to borders, w3schools lists them briefly
 #### Centering
 To center a box, set the margins to auto.
 ```css
-p{
+p {
     margin: 5px auto 5px auto;
 }
 ```
