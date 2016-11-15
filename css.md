@@ -320,26 +320,26 @@ Here's a box demonstration:
 
 ```html
 <style>
-.box {
-    margin: 0;
-    padding: 0;
-    height: 250px;
-    width: 250px;
-    background-color: yellow;
-}
-.box p {
-    margin: 0;
-    padding: 0;
-    height: 75%;
-    width: 75%;
-    background-color: blue;
-}
-</style>     
+    .box {
+        margin: 0;
+        padding: 0;
+        height: 250px;
+        width: 250px;
+        background-color: yellow;
+    }
+    .box p {
+        margin: 0;
+        padding: 0;
+        height: 75%;
+        width: 75%;
+        background-color: blue;
+    }
+</style>
 
 <div class="box">
-	 <p>
+    <p>
         This is some dummy text...
-     </p>
+    </p>
 </div>
 ```
 
