@@ -9,13 +9,13 @@ Here is an example of the contents of a typical CSS file
 ```css
 
 body {
-    font: 100% Lucida Sans, Verdana;
+    font: 100% "Lucida Sans", Verdana;
     margin: 20px;
     line-height: 26px;
 }
 
 .container {
-    xmin-width: 900px;
+    min-width: 900px;
 }
 ```
 
@@ -80,7 +80,7 @@ Inside your html document, you can apply CSS internally
 
 ```html
 <style>
-    body: {
+    body {
         background-color: red;
     }
 </style>
@@ -320,26 +320,26 @@ Here's a box demonstration:
 
 ```html
 <style>
-.box {
-    margin: 0;
-    padding: 0;
-    height: 250px;
-    width: 250px;
-    background-color: yellow;
-}
-.box p {
-    margin: 0;
-    padding: 0;
-    height: 75%;
-    width: 75%;
-    background-color: blue;
-}
-</style>     
+    .box {
+        margin: 0;
+        padding: 0;
+        height: 250px;
+        width: 250px;
+        background-color: yellow;
+    }
+    .box p {
+        margin: 0;
+        padding: 0;
+        height: 75%;
+        width: 75%;
+        background-color: blue;
+    }
+</style>
 
 <div class="box">
-	 <p>
+    <p>
         This is some dummy text...
-     </p>
+    </p>
 </div>
 ```
 
@@ -354,15 +354,14 @@ Here is a demonstration:
 
 ```html
 <style>
-div.norm {
-    width:600px;
-    border: 3px solid red;
-}
-
-div.max {
-    max-600px:350px;
-    border: 3px solid red;
-}
+    div.norm {
+        width: 600px;
+        border: 3px solid red;
+    }
+    div.max {
+        max-width: 350px;
+        border: 3px solid red;
+    }
 </style>
 </head>
 <body>
@@ -377,17 +376,16 @@ div.max {
 When we have lots of text in  a fixed space, we can make the content fit using Overflow
 ```html
 <style>
-div.norm {
-    width:600px;
-    height:100px;
-    border: 3px solid red;
-    overflow: scroll; /*or hidden*/
-}
-
-div.max {
-    max-600px:350px;
-    border: 3px solid red;
-}
+    div.norm {
+        width: 600px;
+        height: 100px;
+        border: 3px solid red;
+        overflow: scroll; /*or hidden*/
+    }
+    div.max {
+        max-width: 350px;
+        border: 3px solid red;
+    }
 </style>
 </head>
 <body>
@@ -404,7 +402,7 @@ There are lots of styles that can apply to borders, w3schools lists them briefly
 #### Centering
 To center a box, set the margins to auto.
 ```css
-p{
+p {
     margin: 5px auto 5px auto;
 }
 ```
