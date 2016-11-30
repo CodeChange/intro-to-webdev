@@ -1,6 +1,6 @@
-# [HTML Introductory Course](https://github.com/ScriptSmith/intro-to-webdev/blob/master/html.md)
+# [HTML Introductory Course](https://github.com/CodeChange/intro-to-webdev/blob/master/html.md)
 
-[DOWNLOAD](https://github.com/ScriptSmith/intro-to-webdev/archive/master.zip)
+[DOWNLOAD](https://github.com/CodeChange/intro-to-webdev/archive/master.zip)
 ### Topics
 1. Using a text editor
 2. How websites work
