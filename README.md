@@ -1,5 +1,5 @@
 # Intro to Web Development
-[DOWNLOAD](https://github.com/ScriptSmith/intro-to-webdev/archive/master.zip)
+[DOWNLOAD](https://github.com/CodeChange/intro-to-webdev/archive/master.zip)
 
 # Structure
 
